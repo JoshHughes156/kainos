@@ -10,12 +10,12 @@ function checkpass() {
 }
 
 function changeHeadingColour() {
-    col = document.getElementById("col").style.color
+    col = document.getElementById("col").style.color;
     if (col == "cyan") {
-        col = document.getElementById("col").style.color ="green";
+        document.getElementById("col").style.color = "green";
     }
     else {
-        col = document.getElementById("col").style.color = "cyan"
+        document.getElementById("col").style.color = "cyan";
     }
 }
 
